@@ -1,0 +1,200 @@
+/* html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .tab{
+    align-items:center;
+    align-content: center;
+    height:30rem;
+    width:15rem;
+    background-color:aqua;
+    margin-top: 150px;
+    margin-left: 150px;
+  }
+  
+  .main{
+    height:5rem;
+    width:5rem;
+    background-color:aqua;
+  } */
+
+
+
+
+
+  html {
+    height: 100%;
+    width: 100%;
+  }
+
+*{
+  font-family:sans-serif;
+}
+  .tab{
+    align-items:center;
+    align-content: center;
+    height:30rem;
+    width:15rem;
+    background-color:aqua;
+    margin-top: 150px;
+    margin-left: 150px;
+  }
+  
+  #input-field{
+    height:23px;
+    width:170px;
+    background-color:transparent;
+    align-items:center;
+    font-size:22px;
+    padding:8px ; 
+    border-color:black;
+    /*justify-content:center;*/
+    border-radius:8px;
+    /*border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px*/
+  }
+  
+  .box{
+    justify-content:center;
+    align-items: center;
+  }
+  /*input{
+    /*height:5rem;
+    width:5rem;*//*
+    height:10px;
+    
+    background-color:red;
+    
+  }
+  */
+  
+  /*.imp{
+    display:flex;
+  }*/
+  #btn{
+  padding: 10px 60px;
+  background: #fff;
+  border:0;
+  outline:none;
+  cursor:pointer;
+  font-size:22px;
+  font-weight:500;
+  /*border-radius:30px;*/
+    justify-content:center;
+           border-radius:8px;
+  }
+  
+  .design {
+    /*display:flex;*/
+     align-content:center;
+  }
+  
+  #popup {
+              display: none;
+              position: fixed;
+              /* top: 50px; */
+              top: 70px;
+              left: auto;
+              width: 75%;
+              height: auto;
+              border:5px;
+              margin-left: auto;
+              justify-content:center;
+              border-radius:20px;
+            /*  background-color: 
+              : rgba(0, 0, 0, 0.5); /* Transparent background */
+              background-color:aqua;
+              text-align: center;
+  }
+
+  #popup-2 {
+              display: none;
+              position: fixed;
+              /* top: 50px; */
+              top: 70px;
+              left: auto;
+              width: 75%;
+              height: auto;
+              border:5px;
+              margin-left: auto;
+              justify-content:center;
+              border-radius:20px;
+              /*background-color
+              : rgba(0, 0, 0, 0.5); /*Transparent background */
+              background-color:aqua;
+              text-align: center;
+  }
+  
+  #close-button {
+              position: absolute;
+              top: 10px;
+              right: 10px;
+              padding: 5px;
+              border: none;
+              border-radius:5px;
+              margin-top:10px;
+              margin-right:10px;
+              background-color: #ddd;
+              cursor: pointer;
+  }
+  
+  #popup-text {
+              padding: 20px;
+              background-color: transparent;
+              margin-top: 85px;
+              font-size: 40px;
+              justify-content:center;
+  }
+
+  h1{
+    font-family: sans-serif;
+  }
+
+  h2{
+    font-family: sans-serif;
+  }
+
+  /* border:hover{
+    border-color: whitesmoke;
+
+  } */
+
+.yay{
+  font-size:20px;
+  /* border: 4px red; */
+}
+
+/* #Success{
+  font-size: 20px;
+} */
+
+
+.iframe-wrapper {
+  position: relative; /* This allows absolute positioning of child elements */
+  overflow: hidden; /* This hides any overflowing content from the iframe */
+}
+
+.iframe-wrapper iframe {
+  width: 100%; /* Set width to fit the wrapper */
+  height: 100%; /* Set height to fit the wrapper */
+}
+
+/* Target specific control elements (optional) */
+.iframe-wrapper iframe > *:not(.your-desired-content) {
+  /* Hide all elements except your desired content */
+  display: none;
+}
+
+#popup.show {
+  display: block;
+}
+
+#close-popup-2{
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#no{
+  color: red;
+}
