@@ -32,7 +32,7 @@ const specificValues = [7, 2023];
     myAudio.loop = true; // Enable looping
     myAudio.play();
 
-  document.querySelector("#iframe1").src = "/Project-Thala-Meme/Assets/Correct.mp4";
+  document.querySelector("#iframe1").src = "Assets/Correct.mp4";
 
             } 
     else {
