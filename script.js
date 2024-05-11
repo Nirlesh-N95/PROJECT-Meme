@@ -4,6 +4,7 @@ const popup = document.getElementById('popup');
 //const popup1 = document.getElementById('popup1');
 const popup2 = document.getElementById('popup-2')
 const myAudio = document.getElementById('myAudio')
+const myAudio2 = document.getElementById('myAudioM')
 const closeButton = document.getElementById('close-button');
 const close2 = document.getElementById('close-popup-2')
 const inputField = document.getElementById('input-field');
@@ -39,7 +40,15 @@ const specificValues = [7, 2023];
                 popup2.style.display = 'block';
         myAudio.pause();
         myAudiocurrentTime = 0;
-                document.body.style.backgroundImage = 'Assets/Moye-S7.gif'; // Reset background image
+                playAudio();
+            myAudio2.loop=false;
+                myAudio2.play();
+            document.body.style.backgroundImage = 'url("Assets/Moye-S7.gif")';
+        document.body.style.backgroundSize = "160px 90px";  // Sets width to 500px and height to 300px
+
+        // Replace "Moye-S7.gif" with your actual filename
+
+//document.body.style.backgroundImage = "Assets/Moye-S7.gif"; // Reset background image
             };
 
    function prepareInput(value) {
